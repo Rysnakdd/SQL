@@ -13,7 +13,6 @@ WHERE name IN (SELECT name FROM personal)
 SELECT * FROM personal
 WHERE name NOT IN (SELECT name FROM client)
 
---4. Побудувати запит на виконання декартового добутку двох таблиць (для будь-яких
-таблиць вашої БД).
+--4. Побудувати запит на виконання декартового добутку двох таблиць (для будь-яких таблиць вашої БД).
 
 SELECT * FROM client, personal
